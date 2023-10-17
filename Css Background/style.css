@@ -1,0 +1,10 @@
+body{
+    background-image: url(walpaper1.jpg);
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: blueviolet;
+    text-align: center;
+}
+ 
