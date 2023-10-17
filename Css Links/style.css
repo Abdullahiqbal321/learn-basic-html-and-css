@@ -1,0 +1,18 @@
+/*link*/
+a:link{
+    color: red;
+}
+/*Visited*/
+a:visited{
+    color:green;
+}
+ /*Mostly case use hover property*/
+a:hover{
+    color: blueviolet;
+}
+a:active{
+color: brown;
+}
+a{
+    font-size: x-large;
+}
