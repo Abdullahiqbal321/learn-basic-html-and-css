@@ -1,0 +1,12 @@
+.color{
+    color: slateblue;
+}
+.rgb{
+color:rgb(207, 121, 41);
+}
+.hex{
+    color: #456 ;
+}
+.hsl{
+    color:hsl(0, 100%, 70%);
+}
