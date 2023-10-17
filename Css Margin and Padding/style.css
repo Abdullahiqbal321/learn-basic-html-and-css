@@ -1,0 +1,15 @@
+.margin{
+    border: 2px solid black;
+    margin-top: 100px;
+    margin-right: 180px;
+    margin-bottom:25px;
+    margin-left: 200px;
+}
+.pad{
+    border: 2px solid black;
+    padding-top: 25px;
+    padding-left: 25px;
+    padding-bottom: 25px;
+    padding-right: 25px;
+    
+}
