@@ -1,0 +1,48 @@
+.c1{
+    color: aqua;
+}
+/*text align text end left or right*/
+.t1{
+    text-align: center;
+    
+}
+.t2{
+    text-decoration: underline;
+    text-decoration-color: red;
+}
+.t3{
+    text-decoration: line-through;
+}
+
+.d1{
+text-decoration: overline;
+}
+.te1{
+    text-transform: uppercase;
+}
+
+.te2{
+    text-transform: lowercase;
+}
+.te3{
+    text-transform: capitalize;
+}
+.cen1{
+    text-align: center;
+}
+.ls1{
+    letter-spacing: 7px;
+    
+}
+.ws1{
+    word-spacing: 4px;
+}
+.lh1{
+    line-height: 35px;
+}
+.lh2{
+    text-indent: 55px;
+}
+.ts1{
+    text-shadow:  2px 2px  greenyellow;
+}
