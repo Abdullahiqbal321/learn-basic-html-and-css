@@ -1,0 +1,19 @@
+.out1{
+    border:3px solid black;
+    outline-color: red;
+    outline-style: dotted;
+
+    }
+
+    .out2{
+        border:5px solid black;
+        outline-color: blueviolet;
+        outline-style: dotted;
+    }
+.out3{   
+    margin:30px;
+        border: 1px solid black;
+        outline:2px solid green;
+        outline-offset: 14px;
+      
+}
