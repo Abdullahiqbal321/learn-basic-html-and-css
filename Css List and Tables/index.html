@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css list table</title>
+</head>
+<style>
+    .a{
+        list-style-type: circle;
+    }
+    .b{
+        list-style-type: lower-roman;
+    }
+    .c{
+        list-style-type: upper-alpha;
+    }
+    .d{
+        list-style-type: upper-roman;
+    }
+    table,th,td{
+        border:2px solid black;
+        /*border collapse Property use*/
+        border-collapse: collapse;
+    
+    }
+    table{
+        width: 100%;
+    }
+    th{
+        height: 100px;
+    }
+</style>
+
+<body>
+    <div>
+        <ul class="a">
+           <li>Coffee</li>
+           <li>Tea</li> 
+           <li>Cup</li>
+        </ul>
+
+        <ul class="b">
+            <li>Coffee</li>
+           <li>Tea</li> 
+           <li>Cup</li>
+        </ul>
+    </div>
+    <div>
+        <ol class="c">
+            <li>Coffee</li>
+            <li>Tea</li> 
+            <li>Cup</li>
+        </ol>
+
+        <ol class="d">
+            <li>Coffee</li>
+            <li>Tea</li> 
+            <li>Cup</li>
+        </ol>
+
+
+    </div>
+ <!--Table Size-->
+    <table>
+        <tr>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Energy</th>
+            
+        </tr>
+    
+        <tr>
+            <td>Abdullah</td>
+            <td>Hassan</td>
+            <td>Tube Light</td>
+            
+        </tr>
+
+        <tr>
+            <td>Ali</td>
+            <td>Ahmed</td>
+            <td>Light</td>
+        </tr>
+        <tr>
+            <td>Ali</td>
+            <td>Ahmed</td>
+            <td>Light</td>
+        </tr>
+    </table>
+<br>
+   
+    
+    
+    
+</body>
+</html>
