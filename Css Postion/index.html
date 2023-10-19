@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css Position</title>
+</head>
+<style>
+/*Position Relative old gap Mantain and Iamge top right left bottom*/
+    .position{
+        position: relative;
+        top:25px;
+        right: 30px;
+    }
+/* Position absolute old gap t mantain and overlapping*/
+    .position1{
+        position: absolute;
+        left:25px;
+        right: 30px;
+    }
+/*position sticky parent element sticky*/
+.sticky1{
+    position: sticky;
+    height: 1000px;
+}
+/*Position fixed web page fixe like comment chat bot and etc*/
+.f1{
+    position: fixed;
+    bottom: 45px;
+    right: 60px;
+}
+</style>
+<body>
+    <div>
+        <img src="download.jpg" alt=""good>
+        <img src="download (1).jpg"class="position" alt="">
+        <img src="download.jpg" alt="">
+        <img src="download (1).jpg" alt="">
+    </div>
+        <br> <br>
+    <div>
+        <img src="download.jpg" alt=""good>
+        <img src="download.jpg"class="position1" alt="">
+        <img src="download.jpg" alt=""good>
+        <img src="download (1).jpg" alt="">
+    </div>
+
+    <div class="sticky1">
+        <img src="download.jpg" alt=""good>
+    </div>
+    
+    <div class="f1">
+        <img src="download (1).jpg" alt=""good>
+    </div>
+
+</body>
+</html>
