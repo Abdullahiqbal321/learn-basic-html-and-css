@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css Display</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .box{
+            border: 3px solid red;
+            /* Block element change Inline*/
+            display: inline-block;
+            padding: 45px;
+            margin: 25px;
+            width: 25%;
+           
+        }
+        .box1{
+            border: 3px solid red;
+            width:50%;
+            /*Visibility hidden property*/
+            visibility: hidden;
+        }
+       span{
+         /* Inline element change Block */
+        display: block;
+       }
+    </style>
+</head>
+<body>
+    <!--block element change inline-->
+    <div class="box">
+        <p>I am A box</p>
+        
+    </div>
+    <div class="box">
+        <p>I am A 2nd Box</p>
+    </div>
+    <div class="box1">
+
+        <p>I am A 3rd Box</p>
+    </div>
+
+    <span>I am Good</span>
+    <span>Good Morning</span>
+</body>
+</html>
