@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"
+            content="width=device-width, initial-scale=1.0">
+        <title>css Specificity</title>
+        <style>
+            /* css specificity 1 value*/
+            p{
+             color: red;
+            }
+            /*css specificity class 10 value */
+.bg{
+    color:green;
+}
+/* css specificity 100 value */
+ #bg{
+
+    color:brown;
+ }
+
+        </style>
+    </head>
+    <body>
+        <div class="bg">
+            <!--Inline css specificity 1000value and  highest specificity inline css-->
+            <p style="color:blue;">Lorem ipsum,
+                dolor sit amet
+                consectetur adipisicing elit.
+                Molestiae nulla laboriosam
+                quibusdam, doloremque dolor
+                debitis ratione rem sed molestias
+                earum?</p>
+        </div>
+        <div id="bg">
+            <p>Lorem ipsum dolor sit amet
+                consectetur adipisicing elit.
+                Tempore assumenda quos quisquam ab
+                facere iste. Sint dolores enim
+                asperiores. Laudantium.</p>
+
+        </div>
+    </body>
+</html>
