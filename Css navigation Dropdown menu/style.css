@@ -4,14 +4,20 @@
     list-style: none;
 }
 .menu>ul{
-    display: flex;
+display: flex;
     background-color: green;
+
+    
 }
 .menu>ul>li{
+    
     padding: 13px 25px;
     list-style: none;
     position: relative;
     color: red;
+
+
+
 }
 a{
     text-decoration: none;
