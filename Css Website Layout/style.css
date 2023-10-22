@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+}
+
+.head{
+    background-color: slategray;
+    padding:20px;
+    text-align: center;
+}
+.nav {
+    
+    background-color: black;
+    padding:15px;
+}
+a{
+    text-decoration: none;
+    margin:8px;
+    color:white;
+}
+a:hover {
+    background-color: silver;
+    
+}
+.column{
+    float:left;
+    width: 33%;
+    padding:20px;
+}
