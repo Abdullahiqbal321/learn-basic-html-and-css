@@ -8,6 +8,10 @@
   background-color: grey;
   border-radius: 10px;
   margin:15px;
+  
+}
+.card:hover{
+    box-shadow: 2px 2px 15px red;
 }
 .image img{
     width:100%;
