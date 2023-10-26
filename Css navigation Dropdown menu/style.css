@@ -4,6 +4,7 @@
     list-style: none;
 }
 .menu>ul{
+    position: relative;
 display: flex;
    background-color: green;
 
