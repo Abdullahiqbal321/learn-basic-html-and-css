@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"
+            content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <style>
+            .box:first-child{
+                color: red;
+
+            }
+            .box:nth-child(odd){
+                background-color: blue;
+            }
+            .box:nth-child(even){
+                background-color: green;
+            }
+            .box:nth-last-child(1){
+                background-color: blue;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="boxes">
+            <div class="box">Lorem ipsum dolor sit amet.</div>
+            <div class="box">Lorem ipsum dolor sit amet.</div>
+            <div class="box">Lorem ipsum dolor sit amet.</div>
+            <div class="box">Lorem ipsum dolor sit amet.</div>
+
+        </div>
+    </body>
+</html>
